@@ -1,1 +1,1 @@
-# CMPUT663-github-copilot-eval
+# CMPUT663-copilot-eval
