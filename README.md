@@ -6,7 +6,6 @@ Prequisites outlines tools required for me to run the study. However, post-proce
 Project Report 
 ------------
 Title: Evaluating Code Converted from Comments by GitHub Copilot  
-Final Report is available [here](report.pdf) 
 
 Prequisites 
 ------------
