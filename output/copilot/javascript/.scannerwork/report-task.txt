@@ -1,6 +1,6 @@
-projectKey=cmput663-copilot-javascript
+projectKey=cmput663-copilot-js
 serverUrl=http://localhost:9000
 serverVersion=9.2.0.49834
-dashboardUrl=http://localhost:9000/dashboard?id=cmput663-copilot-javascript
-ceTaskId=AX1jylVquJV3TNeAHcFY
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AX1jylVquJV3TNeAHcFY
+dashboardUrl=http://localhost:9000/dashboard?id=cmput663-copilot-js
+ceTaskId=AX5Wb3F6ZNgoBx0JBEjB
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AX5Wb3F6ZNgoBx0JBEjB
