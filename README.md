@@ -1,11 +1,9 @@
-# CMPUT663-copilot-eval
-The artifact is an archived of first code suggested by Github Copilot, LeetCode submission JSON files, python scripts to answer RQ1 and RQ2.  
+# An Empirical Evaluation of GitHub Copilot’s Code Suggestions
+This is an artfiact for the MSR 2022 submission titled "An Empirical Evaluation of GitHub Copilot’s Code Suggestions".
+The artifact contains an archived version of the first code solution suggested by Github Copilot, the LeetCode submission JSON files, and the Python scripts we use to answer RQ1 and RQ2.  
 
-Prequisites outlines tools required for me to run the study. However, post-processed data from Github Copilot and LeetCode can be found in [output/copilot](output/copilot) and [output/leetcode](output/leetcode) respectively. 
+The post-processed data from Github Copilot and LeetCode can be found in [output/copilot](output/copilot) and [output/leetcode](output/leetcode) respectively. 
 
-Project Report 
-------------
-Title: Evaluating Code Converted from Comments by GitHub Copilot  
 
 Prequisites 
 ------------
