@@ -10,16 +10,21 @@ Title: Evaluating Code Converted from Comments by GitHub Copilot
 Prequisites 
 ------------
 - Leetcode account (all Leetcode related was done through this account: [663_copilot](https://leetcode.com/663_copilot/))
-- SonarQube (to answer RQ2) 
+- SonarQube (refer to SonarQube's [installation guide](https://docs.sonarqube.org/latest/setup/get-started-2-minutes/)) 
 - Python 3
 - Access to Github Copilot (at this time, github copilot is still under technical preview, you can join the waitlist [here](https://github.com/features/copilot/signup))  
 
 Instructions 
 ------------
-To answer RQ1, use the following command in the current directory  
-- `python3 src/get_stat.py`
+To answer RQ1:
+- run `python3 src/get_stat.py` to get overall data summary
+- refer to [correctness.csv](output/questions_data/correctness.csv) to generate Table 1
+    * description: the file contains names of the 33 questions, total number of test cases for each question, and the number of passed test cases for Python, Java, JavaScript codes when running against the test cases of each question. RE stands for Runtime Error; CE stands for Compile Error
   
-To answer RQ2, run SonarQube on each of these directories to get the Cognitive and Cylcomatic Complexity for each language:
-- for Java: [output/sonar_java](output/sonar_java/)
-- for Python: [output/copilot/python](output/copilot/python)
-- for Javascript: [output/copilot/javascript](output/copilot/javascript)
+To answer RQ2:
+- at SonarQube's dashboard, create 3 projects manually for each of these directories and follow SonarQube's guide to run analysis on each of these directories to get the Cognitive and Cylcomatic Complexity for each language:
+    * for Java: [output/sonar_java](output/sonar_java/)
+    * for Python: [output/copilot/python](output/copilot/python)
+    * for Javascript: [output/copilot/javascript](output/copilot/javascript)
+- refer to [complexity.csv](output/questions_data/complexity.csv) to generate Figure 3
+    * description: the file contains names of the 33 questions, cognitive and cyclomatic complexity of the Python, Java, and Javascript codes for each of the 33 questions 
