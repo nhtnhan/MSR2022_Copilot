@@ -4,9 +4,6 @@ The artifact contains an archived version of the first code solution suggested b
 
 Prequisites outlines tools required to run the study. However, post-processed data from Github Copilot and LeetCode can be found in [output/copilot](output/copilot) and [output/leetcode](output/leetcode) respectively.  
 
-Project Report 
-------------
-Title: An Empirical Evaluation of GitHub Copilot's Code Suggestions  
 
 Prequisites 
 ------------
