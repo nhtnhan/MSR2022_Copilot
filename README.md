@@ -1,18 +1,30 @@
 # CMPUT663-copilot-eval
 The artifact is an archived of first code suggested by Github Copilot, LeetCode submission JSON files, python scripts to answer RQ1 and RQ2.  
 
-Prequisites outlines tools required for me to run the study. However, post-processed data from Github Copilot and LeetCode can be found in [output/copilot](output/copilot) and [output/leetcode](output/leetcode) respectively. 
+Prequisites outlines tools required to run the study. However, post-processed data from Github Copilot and LeetCode can be found in [output/copilot](output/copilot) and [output/leetcode](output/leetcode) respectively.  
 
 Project Report 
 ------------
-Title: Evaluating Code Converted from Comments by GitHub Copilot  
+Title: An Empirical Evaluation of GitHub Copilot's Code Suggestions  
 
 Prequisites 
 ------------
-- Leetcode account (all Leetcode related was done through this account: [663_copilot](https://leetcode.com/663_copilot/))
+- Leetcode account (all Leetcode related was done through this account: [MSR2022](https://leetcode.com/MSR2022/))
 - SonarQube (refer to SonarQube's [installation guide](https://docs.sonarqube.org/latest/setup/get-started-2-minutes/)) 
 - Python 3
 - Access to Github Copilot (at this time, github copilot is still under technical preview, you can join the waitlist [here](https://github.com/features/copilot/signup))  
+
+Structure 
+------------
+These are the structures of our repositories with descriptions to main folders and files:
+- [src/](src/) contains all python scripts used for Step 1 and 3
+    * [copy_paste.py](src/copy_paste.py): create 4 different files in Python, Java, JavaScript, and C for one LeetCode's question when providing the question contexts (function name, parameters, input, output, and comment) 
+    * [get_stat.py](src/get_stat.py): analyze and summarize LeetCode's dump json files in [leetcode](output/leetcode) by statuses (Accepted, Runtime Error, Compile Error, Wrong Answer, Time Limit Exceeded)
+- [output/](ouput/) contains all post-processed data to answer RQ1-RQ2
+    * [copilot](output/copilot): contains 33 files named after 33 LeetCode's questions containing the top suggestion extracted from Github Copilot and the related question contexts (function name, parameters, input, output, and comment)  
+    * [leetcode](output/leetcode): contains 7 dump json files containing information of all submissions to LeetCode (question title, url, status, etc)
+    * [questions_data](output/questions_data): contains 2 csv files used to compose Table 1 and Figure 3
+    * [sonar_java](output/sonar_java): a Maven project containing same 33 Java files in [copilot/java](output/copilot/java) for quick analysis with SonarQube   
 
 Instructions 
 ------------

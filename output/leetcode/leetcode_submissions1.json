@@ -61,21 +61,6 @@
          "title_slug": "two-sum"
       },
       {
-         "id": 595301919,
-         "lang": "python",
-         "time": "3 minutes",
-         "timestamp": 1638339486,
-         "status_display": "Wrong Answer",
-         "runtime": "N/A",
-         "url": "/submissions/detail/595301919/",
-         "is_pending": "Not Pending",
-         "title": "Two Sum",
-         "memory": "N/A",
-         "code": "class Solution(object):\n    def twoSum(self, nums, target):\n        \"\"\"\n        :type nums: List[int]\n        :type target: int\n        :rtype: List[int]\n        \"\"\"\n        for i in range(len(nums)):\n            for j in range(i+1, len(nums)):\n                if nums[i] + nums[j] == target:\n                    return nums\n        return target",
-         "compare_result": "000000000000000000000000000000000000000000000000000000000",
-         "title_slug": "two-sum"
-      },
-      {
           "id": 595248126,
           "lang": "javascript",
           "time": "1 hour, 31 minutes",
