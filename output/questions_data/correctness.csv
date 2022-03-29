@@ -1,34 +1,34 @@
-Question,python,java,javascript,c,total # test cases,,,,,,,,,,,,,python,java,javascript,c
-Q1 Two Sum,57,57,57,57,57,,,,,,,,,,,,,100%,100%,100%,100%
-Q2 Unique Substrings in Wraparound String,50,12,6,50,81,,,,,,,,,,,,,100%,100%,100%,100%
-Q3 Ugly Number II,596,596,0 (RE),CE,596,,,,,,,,,,,,,100%,100%,100%,100%
-Q4 Super Ugly Number,82 (TLE),85,6,CE,85,,,,,,,,,,,,,100%,100%,100%,100%
-Q5 Russian Doll Envelopes,83 (TLE),0,84,CE,84,,,,,,,,,,,,,100%,100%,100%,100%
-Q6 Rotate Function,57,47,58,58,58,,,,,,,,,,,,,100%,100%,100%,100%
-Q7 Poor Pigs,17,17,0 (RE),17,17,,,,,,,,,,,,,100%,100%,100%,100%
-Q8 Pascal's Triangle,14,14,14,14,14,,,,,,,,,,,,,100%,100%,100%,100%
-Q9 Pascal's Triangle II,34,34,34,34,34,,,,,,,,,,,,,100%,100%,100%,100%
-Q10 Partition Equal Subset Sum,114,116,0 (RE),116,116,,,,,,,,,,,,,100%,100%,100%,100%
-Q11 Non-overlapping Intervals,58,58,14,10,58,,,,,,,,,,,,,100%,100%,92%,100%
-Q12 Longest Increasing Subsequence,54,54,0 (RE),54,54,,,,,,,,,,,,,100%,100%,66%,100%
-Q13 Largest Divisible Subset,42,49,49,24,49,,,,,,,,,,,,,100%,100%,52%,100%
-Q14 Integer Replacement,47,46 (RE),11,CE,47,,,,,,,,,,,,,100%,100%,24%,93%
-Q15 Integer Break,17,50,50,50,50,,,,,,,,,,,,,98%,100%,23%,93%
-Q16 Distinct Subsequences,64,64,3,60 (RE),64,,,,,,,,,,,,,98%,100%,19%,66%
-Q17 Counting Bits,15,15,15,15,15,,,,,,,,,,,,,98%,100%,14%,61%
-Q18 Construct Binary Tree from Inorder and Postorder Traversal,202,202,202,202,202,,,,,,,,,,,,,96%,100%,7%,54%
-Q19 Combination Sum IV,15,15,0,14 (RE),15,,,,,,,,,,,,,85%,100%,7%,48%
-Q20 Coin Change,188,188,36,CE,188,,,,,,,,,,,,,66%,97%,6%,17%
-Q21 Burst Balloons,70,0,0 (RE),0 (RE),70,,,,,,,,,,,,,61%,81%,4%,5%
-Q22 Split Array Largest Sum,0 (RE),30,0 (RE),30,30,,,,,,,,,,,,,52%,79%,0%,4%
-Q23 Number of Digit One,0 (RE),38,35 (TLE),38,38,,,,,,,,,,,,,47%,66%,0%,0%
-Q24 Max Sum of Rectangle No Larger Than K,1,14,26,2,39,,,,,,,,,,,,,34%,61%,0%,0%
-Q25 Longest Increasing Path in a Matrix,0 (RE),138,0 (RE),CE,138,,,,,,,,,,,,,22%,59%,0%,0%
-Q26 Frog Jump,24,26,0 (RE),28,51,,,,,,,,,,,,,9%,50%,0%,0%
-Q27 Count The Repetitions,0 (RE),39 (TLE),7,0 (TLE),49,,,,,,,,,,,,,2%,35%,0%,0%
-Q28 Count Numbers with Unique Digits,2,0,0 (RE),9,9,,,,,,,,,,,,,0%,14%,0%,0%
-Q29 Concatenated Words,0,27,0 (RE),0,44,,,,,,,,,,,,,0%,9%,0%,0%
-Q30 Can I Win,0 (RE),34,0 (RE),CE,57,,,,,,,,,,,,,0%,9%,0%,0%
-Q31 Best Time to Buy and Sell Stock with Cooldown,110,19,110,CE,210,,,,,,,,,,,,,0%,0%,0%,0%
-Q32 Arithmetic Slices,10,10,0,10,15,,,,,,,,,,,,,0%,0%,0%,0%
-Q33 Arithmetic Slices II - Subsequence,10,10,7,5,101,,,,,,,,,,,,,0%,0%,0%,0%
+Question,Number,Python,Java,JavaScript,C,Total # Test Cases,Difficulty
+Two Sum,1,57,57,57,57,57,Easy
+Pascal's Triangle,2,14,14,14,14,14,Easy
+Pascal's Triangle II,3,34,34,34,34,34,Easy
+Counting Bits,4,15,15,15,15,15,Easy
+Unique Substrings in Wraparound String,5,50,12,6,50,81,Medium
+Ugly Number II,6,596,596,0 (RE),CE,596,Medium
+Super Ugly Number,7,82 (TLE),85,6,CE,85,Medium
+Rotate Function,8,57,47,58,58,58,Medium
+Partition Equal Subset Sum,9,114,116,0 (RE),116,116,Medium
+Non-overlapping Intervals,10,58,58,14,10,58,Medium
+Longest Increasing Subsequence,11,54,54,0 (RE),54,54,Medium
+Largest Divisible Subset,12,42,49,49,24,49,Medium
+Integer Replacement,13,47,46 (RE),11,CE,47,Medium
+Integer Break,14,17,50,50,50,50,Medium
+Construct Binary Tree from Inorder and Postorder Traversal,15,202,202,202,202,202,Medium
+Combination Sum IV,16,15,15,0,14 (RE),15,Medium
+Coin Change,17,188,188,36,CE,188,Medium
+Count Numbers with Unique Digits,18,2,0,0 (RE),9,9,Medium
+Can I Win,19,0 (RE),34,0 (RE),CE,57,Medium
+Best Time to Buy and Sell Stock with Cooldown,20,110,19,110,CE,210,Medium
+Arithmetic Slices,21,10,10,0,10,15,Medium
+Russian Doll Envelopes,22,83 (TLE),0,84,CE,84,Hard
+Poor Pigs,23,17,17,0 (RE),17,17,Hard
+Distinct Subsequences,24,64,64,3,60 (RE),64,Hard
+Burst Balloons,25,70,0,0 (RE),0 (RE),70,Hard
+Split Array Largest Sum,26,0 (RE),30,0 (RE),30,30,Hard
+Number of Digit One,27,0 (RE),38,35 (TLE),38,38,Hard
+Max Sum of Rectangle No Larger Than K,28,1,14,26,2,39,Hard
+Longest Increasing Path in a Matrix,29,0 (RE),138,0 (RE),CE,138,Hard
+Frog Jump,30,24,26,0 (RE),28,51,Hard
+Count The Repetitions,31,0 (RE),39 (TLE),7,0 (TLE),49,Hard
+Concatenated Words,32,0,27,0 (RE),0,44,Hard
+Arithmetic Slices II - Subsequence,33,10,10,7,5,101,Hard
