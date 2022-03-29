@@ -1,5 +1,5 @@
 # An Empirical Evaluation of GitHub Copilot’s Code Suggestions
-This is an artfiact for the MSR 2022 submission titled "An Empirical Evaluation of GitHub Copilot’s Code Suggestions".
+This is an artfiact for the MSR 2022 paper titled "An Empirical Evaluation of GitHub Copilot’s Code Suggestions" by Nhan Nguyen and Sarah Nadi.
 The artifact contains an archived version of the first code solution suggested by Github Copilot, the LeetCode submission JSON files, and the Python scripts we use to answer RQ1 and RQ2.  
 
 Prequisites outlines tools required to run the study. However, post-processed data from Github Copilot and LeetCode can be found in [output/copilot](output/copilot) and [output/leetcode](output/leetcode) respectively.  
